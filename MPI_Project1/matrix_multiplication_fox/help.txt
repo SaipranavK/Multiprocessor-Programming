@@ -1,0 +1,25 @@
+USE FOLLOWING TO RUN:
+
+mpicc -o a matrix_multiply_block_wise.c
+mpirun -n 4 ./a 256 m1_256.txt m2_256.txt m_out.txt
+
+----------------------------------------------------------------------------------
+SYNTAX EXPLAIN:
+mpicc -o a matrix_multiply_block_wise.c
+mpirun -n <number_of_processor> ./a <number_of_elements> <inputfile_1> <inputfile2> <output_file> 
+
+
+INCASE OF SOME ERROR
+
+ERROR:caused collective abort of all ranks exit status of rank : killed by signal 11 
+Cause:Due to too much stack memory being allocated.[https://stackoverflow.com/questions/14061927/mpi-run-error-caused-collective-abort-of-all-ranks]
+solution:reduce matrix size or increase number of processor
+
+ERRROR: MPI SOM TIME NOT WORK
+SOLUTION :mpd&
+
+
+FILES ABOUT
+m1_256.txt ->marix A
+m2_256.txt  -> matrix B
+m_out.txt   ->output file name

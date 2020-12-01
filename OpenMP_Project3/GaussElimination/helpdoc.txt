@@ -1,0 +1,21 @@
+use command as
+
+***************************************************************************
+To compile->>>>gcc -o mh -fopenmp gauss_elimination_parallel_openmp.c 
+To run->>>>>>>>./mh
+***************************************************************************
+
+
+compilation command syntex
+gcc -o <objectfilename> -fopenmp <filename>.c
+
+to run
+./objectfilename
+
+**************************************************************************
+
+HELP
+
+RUNTIME Inputs
+Enter SIZE of matrix
+Enter number of threads

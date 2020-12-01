@@ -1,0 +1,21 @@
+
+size      = 2048x2048 
+maxnum    = 15 
+difflimit = 0.0204800 
+Init	  = rand 
+w	  = 0.500000 
+
+Initializing matrix...done 
+
+Iteration: 100, maxi = 16559.416252, prevmax_odd = 16560.494603
+Iteration: 200, maxi = 16545.495553, prevmax_odd = 16545.365802
+Iteration: 300, maxi = 16549.902011, prevmax_odd = 16549.837305
+Iteration: 400, maxi = 16552.618343, prevmax_odd = 16552.571447
+Iteration: 500, maxi = 16554.707538, prevmax_odd = 16554.670018
+Iteration: 600, maxi = 16556.405486, prevmax_odd = 16556.374647
+Iteration: 700, maxi = 16557.810501, prevmax_odd = 16557.784827
+Iteration: 800, maxi = 16558.986567, prevmax_odd = 16558.964957
+
+Number of iterations = 833
+
+TIme Spent = 62.274275

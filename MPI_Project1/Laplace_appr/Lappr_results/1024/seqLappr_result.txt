@@ -1,0 +1,14 @@
+
+size      = 1024x1024 
+maxnum    = 15 
+difflimit = 0.0102400 
+Init	  = rand 
+w	  = 0.500000 
+
+Initializing matrix...done 
+
+Iteration: 100, maxi = 8299.890647, prevmax_odd = 8300.311299
+
+Number of iterations = 138
+
+Time Elapsed:2.615198s

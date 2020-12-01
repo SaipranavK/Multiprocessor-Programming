@@ -1,0 +1,25 @@
+Task - 2 : Laplace Approximation using SOR
+
+1. Compile: 
+mpicc -o lpap lpap_mpi.c
+
+2. Run: 
+mpirun -n <1/2/4/8> ./lpap [options]
+
+3.options:
+a) -n = Change Matrix Size
+b) -d = Change acceptance value/Difference limit 
+Range:( 0.1 - 0.00001)
+c) -w = Change Laplace relaxation factor (omega) Range:(0.1 - 1.0)
+d) -P = Print Matrix
+e) -I = Change initialization Type 
+Choices:(count or fast or rand)
+f)-m = change the maximum number in the matrix
+g)-u = Show usage
+h)-D = See Defaults
+
+Example: 
+mpirun -n 4 ./lpap -n 1024 -d 0.1 -I count -P 1 -w 0.8
+
+IMPORTANT:
+The size of the matrix must be a multiple of available processors

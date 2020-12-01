@@ -1,0 +1,24 @@
+use command as
+
+
+***************************************************************************
+To compile->>>>gcc  Gaussian_elimination.c -o a_out -lpthread 
+To run->>>>>>>>./a_out
+Enter (Size of matrix) Limit 2050 N: >>2048
+Enter (Number of Threads) Limit 60 ThreadNum:>>4
+***************************************************************************
+
+Details>>>>
+
+compilation command syntex
+gcc <program name> -o <output_name> -lpthread -lm
+
+to run
+./output_name
+
+Enter the matrix size N:(2048,1204,512,100,50,20)
+Enter the number of threads:(1,2,3,4,8,10,......)
+
+**************************************************************************
+
+

@@ -1,0 +1,5 @@
+OpenMP - QuickSort
+-----------------------------------
+Compile : gcc -O2 -fopenmp qs_omp.c
+Run: ./a.out
+-----------------------------------

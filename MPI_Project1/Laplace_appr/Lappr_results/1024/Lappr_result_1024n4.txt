@@ -1,0 +1,26 @@
+mpiexec_kraken.tek.bth.se (get_parms_from_rcfile 1403): line in mpd conf is not key=val pair; line=:saky19slhje53-j9z
+:
+
+Processor = 0/3
+
+Processor = 1/3
+
+Processor = 2/3
+
+Processor = 3/3
+
+size      = 1024x1024 
+maxnum    = 15 
+difflimit = 0.0102400 
+Init	  = rand 
+w	  = 0.500000 
+
+Initializing matrix...done in node : 0Number of iterations = 138
+
+Time Elapsed in Processor 0/3 = 1.235133
+
+Time Elapsed in Processor 2/3 = 1.220951
+
+Time Elapsed in Processor 3/3 = 1.220854
+
+Time Elapsed in Processor 1/3 = 1.221504
