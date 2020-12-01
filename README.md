@@ -1,2 +1,2 @@
-# Parallel-Computing-Exercise
-This repository is a compilation of different programs using parallel computing techniques to speedup operations. Please refer to help.txt files in each program folder for instructions to run the code.
+# Multiprocessor-Programming-Exercise
+This repository is a compilation of different programs using parallel computing techniques and multiprocessor programming to speedup different operations. Please refer to help.txt files in each program folder for instructions to run the code.
